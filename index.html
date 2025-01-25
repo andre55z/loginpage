@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<header>
+    <img id="img" src="imgslog/Captura_de_tela_2025-01-25_170922-removebg-preview.png">
+</header>
+<body class="snow">
+    <section class="login">
+        <img src="imgslog/Captura de tela 2025-01-23 154429.png" blank="imgloging" id="pess">
+        <h3>Login</h3>
+        <input type="text" id="text" placeholder="Nome de usuário" >
+        <h3>Senha</h3>
+        <input type="password" id="pass" placeholder="Senha" >
+        <img src="imgslog/olho.png" id="zoi" >
+        <input type="checkbox" id="showp" onclick="togpass()">
+    </section>
+    <section class="btns">
+        <button class="btncada" id = "btncad" >
+            Cadastrar-se!
+        </button>
+        <button class="btnesq" id = "btnesqu" >
+            Esqueci a senha
+        </button>
+    </section>
+    <div id="widget" class="hidden">
+        <div class="widgett">
+            <h2>Cadastrar-se!</h2>
+            <h3>Insira seu melhor e-mail</h3>
+            <input type="text" id="email" placeholder="xxxxxx@jjjj.jjj">
+            <h3>Insira seu nome de usuário</h3>
+            <input type="text" id="usu" placeholder="Nome de usuário">
+            <h3>Crie uma senha</h3>
+            <input type="password" id="pswd" placeholder="Senha">
+            <h3>Confirme sua senha</h3>
+            <input type="password" id="confpswd" placeholder="Confirmar senha">
+            <div class="btnc">
+                <button id="closeWidget" class="btnclose">Fechar</button><button id="btok" class="btnok">Concluir</button>
+            </div>
+        </div>
+    </div>
+    <div id="widget2" class="hid">
+        <div class="widgettt">
+            <h3>Insira o e-mail da sua conta</h3>
+            <input type="text" id="emailc" placeholder="xxxxxx@jjjj.jjj">
+            <h3>Crie uma nova senha</h3>
+            <input type="password" id="pswdno" placeholder="Senha">
+            <h3>Confirme sua senha</h3>
+            <input type="password" id="confpswdno" placeholder="Confirmar senha">
+            <div>
+                <button id="close2" class="btnclose2">Fechar</button><button id="btok2" class="btnok2">Concluir</button>
+            </div>
+        </div>
+    </div>
+    <button class="btncolor" id = "btn" onclick="togimg()">spotify
+    </button>
+
+<script src="code.js"></script>
+</body>
+</html>
